@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" "C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\2021 年 校赛A题\Signal measure -main"
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.3.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/2021 骞� 鏍¤禌A棰�/Signal measure -main/cmake-build-default-mingw-stm32/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_fe690/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fe690.dir\build.make CMakeFiles/cmTC_fe690.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/2021 骞� 鏍¤禌A棰�/Signal measure -main/cmake-build-default-mingw-stm32/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_fe690.dir/testCCompiler.c.obj
+    C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe    -o CMakeFiles\cmTC_fe690.dir\testCCompiler.c.obj   -c "C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\2021 楠�?閺嵚ょA妫版Signal measure -main\cmake-build-default-mingw-stm32\CMakeFiles\CMakeTmp\testCCompiler.c"
+    arm-none-eabi-gcc.exe: error: C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\2021 楠�?閺嵚ょA妫版Signal measure -main\cmake-build-default-mingw-stm32\CMakeFiles\CMakeTmp\testCCompiler.c: Invalid argument
+    arm-none-eabi-gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_fe690.dir\build.make:85: CMakeFiles/cmTC_fe690.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/2021 骞� 鏍¤禌A棰�/Signal measure -main/cmake-build-default-mingw-stm32/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:140: cmTC_fe690/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/2021 骞� 鏍¤禌A棰�/Signal measure -main/cmake-build-default-mingw-stm32/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/2021 骞� 鏍¤禌A棰�/Signal measure -main/cmake-build-default-mingw-stm32/CMakeFiles/CMakeError.log".

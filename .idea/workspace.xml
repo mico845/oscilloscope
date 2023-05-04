@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="HEllOWORLD" targetName="HEllOWORLD.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Default" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="187" />
+        <option value="82" />
+        <option value="1327" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2NzFhk6IjOsHsc7cF48oNWERswm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CMake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SignalProcess/fdacoefs" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\fdacoefs" />
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\main\HardWare\lcd" />
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\main - Copy\HardWare\touch" />
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\dsp\main\SignalProcess" />
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\dsp\main\System\usart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\Signal measure -main\Middlewares\ST\ARM\DSP\Lib" />
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\Signal measure -main\Middlewares\ST\ARM\DSP" />
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\Signal measure -main\dsp_lib" />
+      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\Signal measure -main\Middlewares\ST\ARM\DSP\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD HELLOWORLD">
+    <configuration name="HEllOWORLD.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HEllOWORLD" TARGET_NAME="HEllOWORLD.elf" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="HEllOWORLD" RUN_TARGET_NAME="HEllOWORLD.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD HELLOWORLD" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HEllOWORLD" TARGET_NAME="HEllOWORLD.elf" CONFIG_NAME="Default" version="1" RUN_TARGET_PROJECT_NAME="HEllOWORLD" RUN_TARGET_NAME="HEllOWORLD.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\MinGW\OpenOCD-20211118-0.11.0\stlink_f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.HEllOWORLD.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD HEllOWORLD" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD HELLOWORLD" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="" />
+      <created>1680659124794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680659124794</updated>
+      <workItem from="1680659139145" duration="2948000" />
+      <workItem from="1680663646567" duration="34358000" />
+      <workItem from="1680755718371" duration="14136000" />
+      <workItem from="1680776721856" duration="11128000" />
+      <workItem from="1680788918309" duration="8000" />
+      <workItem from="1680849752876" duration="3850000" />
+      <workItem from="1680853929427" duration="3209000" />
+      <workItem from="1680857489542" duration="14427000" />
+      <workItem from="1680954389536" duration="25735000" />
+      <workItem from="1681531326197" duration="78000" />
+      <workItem from="1681531645755" duration="114000" />
+      <workItem from="1681531772064" duration="367000" />
+      <workItem from="1681532190899" duration="775000" />
+      <workItem from="1681533093420" duration="23750000" />
+      <workItem from="1681611326338" duration="21312000" />
+      <workItem from="1681955716336" duration="9056000" />
+      <workItem from="1681965093545" duration="4191000" />
+      <workItem from="1681982507976" duration="2773000" />
+      <workItem from="1681989747378" duration="14522000" />
+      <workItem from="1682035094602" duration="2972000" />
+      <workItem from="1682039431661" duration="2255000" />
+      <workItem from="1682045181635" duration="38605000" />
+      <workItem from="1682124796926" duration="30999000" />
+      <workItem from="1682162563625" duration="6255000" />
+      <workItem from="1682169877287" duration="1123000" />
+      <workItem from="1682223447454" duration="2062000" />
+      <workItem from="1682326478800" duration="857000" />
+      <workItem from="1682327372056" duration="401000" />
+      <workItem from="1682327817499" duration="4687000" />
+      <workItem from="1682574075485" duration="18000" />
+      <workItem from="1682589180691" duration="12000" />
+      <workItem from="1682695314715" duration="87000" />
+      <workItem from="1682696429509" duration="585000" />
+      <workItem from="1682697110873" duration="370000" />
+      <workItem from="1682730188905" duration="5626000" />
+      <workItem from="1682742483001" duration="4330000" />
+      <workItem from="1682764477577" duration="20638000" />
+      <workItem from="1682785351643" duration="4000" />
+      <workItem from="1682785403206" duration="873000" />
+      <workItem from="1682819007926" duration="35000" />
+      <workItem from="1682929291121" duration="6879000" />
+      <workItem from="1683036112985" duration="4204000" />
+      <workItem from="1683087927384" duration="421000" />
+      <workItem from="1683090543331" duration="615000" />
+      <workItem from="1683120573319" duration="8204000" />
+      <workItem from="1683167191326" duration="23503000" />
+      <workItem from="1683208944739" duration="404000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HELLOWORLD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HELLOWORLD.elf">
+				<Option output="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/HELLOWORLD.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/usart"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/delay"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 HELLOWORLD.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HELLOWORLD.elf/fast">
+				<Option output="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/HELLOWORLD.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/usart"/>
+					<Add directory="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/delay"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 HELLOWORLD.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/gpio.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/main.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/stm32f4xx_it.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/tim.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Inc/usart.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/gpio.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/main.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/stm32f4xx_it.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/syscalls.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/system_stm32f4xx.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/tim.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Core/Src/usart.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/CMSIS/LICENSE.txt">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/STM32F407VETx_FLASH.ld">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/delay/delay.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/delay/delay.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/usart/retarget.c">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/System/usart/retarget.h">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/startup/startup_stm32f407xx.s">
+			<Option target="HELLOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/CLionProjects/Project_STM32/STM32_F407_VET6/HEllOWORLD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/Dis_Picture.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/Dis_Picture.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/FONT.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/Picture.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/Text.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/Text.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/lcd.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/lcd.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HardWare/lcd/lcd_ex.c" charset="GBK" />
+  </component>
+</project>
