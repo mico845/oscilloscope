@@ -13,10 +13,10 @@ ADC_HandleTypeDef *ADC_HANDLE;
 
 bool adc_check()
 {
-    if (SAMPLERATE > PCLK2_DIV4/(SAMPLETIMING + 15))
+    if (SAMPLERATE > PCLK2_DIV/(SAMPLETIMING + 12))
     {
         printf("error: SAMPLERATE can't satisfy adc sampletiming\n");
-        printf("SAMPLERATE: %lu ADC TIME: %d\n", SAMPLERATE, PCLK2_DIV4/(SAMPLETIMING + 15));
+        printf("SAMPLERATE: %lu ADC TIME: %d\n", SAMPLERATE, PCLK2_DIV/(SAMPLETIMING + 12));
         return false;
     }
     else
@@ -79,6 +79,7 @@ bool adc_dma_finished = false;
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
     HAL_ADC_Stop_DMA(hadc);
+    HAL_TIM_Base_Stop(&ADC_TIM);
     if (hadc->Instance == ADC1)
     {
         adc_dma_finished = true;

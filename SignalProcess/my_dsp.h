@@ -11,6 +11,7 @@
 #include "SignalProcess_fft.h"
 #include "SignalProcess_filter.h"
 #include "SignalProcess_pwm.h"
+#include "SignalProcess_windows.h"
 
 extern float graph_x_scale;
 extern uint64_t  auto_samplerate;

@@ -21,6 +21,8 @@ typedef enum {
  * FUNCTION
  * */
 
+
+
 void calc_tim_arr_psc(uint32_t f_in, uint32_t f_out, uint16_t *arr, uint16_t *psc);
 void freq_to_arr_psc(float32_t freq, float32_t clk, uint16_t* arr, uint16_t* psc);
 

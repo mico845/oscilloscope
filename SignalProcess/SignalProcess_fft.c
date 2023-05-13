@@ -65,7 +65,7 @@ void cfft(float32_t *input, u32 fftSize, u8 ifftFlag, u8 bitReverseFlag, float32
     for(u32 i = 0; i < fftSize; i++)
     {
         printf("%lu,%f\n", i, fft_output_maxval[i]);
-        delay_ms(1);
+        //delay_ms(1);
     }
 #endif
 }
@@ -77,7 +77,7 @@ float32_t fft_get_freq(float32_t *fft_output_maxval, u32 fftSize)
     float32_t max_value = 0;
     u32 max_index;
 // 寻找缓冲区中最大值及其位置
-    for (u32 i = 1; i <  fftSize / 2; i++) {
+    for (u32 i = 2; i <  fftSize / 2; i++) {
 
         if (fabs(fft_output_maxval[i]) > max_value) {
 
@@ -88,6 +88,7 @@ float32_t fft_get_freq(float32_t *fft_output_maxval, u32 fftSize)
     }
 // 计算最大值所在的频率
     float32_t freq = (float32_t) ((max_index * (float32_t)((float32_t)(SAMPLERATE) / (float32_t)fftSize) ));
+    //printf("freq: %f samplerate: %f, max_index: %lu\n",freq,(float32_t)(SAMPLERATE), max_index);
     return freq;
 }
 

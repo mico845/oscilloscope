@@ -11,7 +11,66 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="" />
+    <list default="true" id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_HEllOWORLD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/gui.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HEllOWORLD.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/HEllOWORLD.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_common_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_const_structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Lib/arm_cortexM4l_math.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F407VETx_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F407VETx_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcess.c" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcess.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcess.h" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcess.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcessConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcessConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcess_fft.c" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcess_fft.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcess_fft.h" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcess_fft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SignalProcess_pwm.c" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SignalProcess_pwm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/SingnalProcess_adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/SingnalProcess_adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalProcess/my_dsp.h" beforeDir="false" afterPath="$PROJECT_DIR$/SignalProcess/my_dsp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/Makefile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +96,9 @@
     </option>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -46,6 +108,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2NzFhk6IjOsHsc7cF48oNWERswm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,16 +119,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CMake" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SignalProcess/fdacoefs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SignalProcess" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\SignalProcess" />
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src" />
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\fdacoefs" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\main\HardWare\lcd" />
-      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\main - Copy\HardWare\touch" />
-      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\dsp\main\SignalProcess" />
-      <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\dsp\main\System\usart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Whisky\CLionProjects\Project_STM32\STM32_F407_VET6\Signal measure -main\Middlewares\ST\ARM\DSP\Lib" />
@@ -80,14 +144,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="OCD HELLOWORLD" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HEllOWORLD" TARGET_NAME="HEllOWORLD.elf" CONFIG_NAME="Default" version="1" RUN_TARGET_PROJECT_NAME="HEllOWORLD" RUN_TARGET_NAME="HEllOWORLD.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\MinGW\OpenOCD-20211118-0.11.0\stlink_f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
-        <debugger kind="GDB" isBundled="true" />
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\MinGW\OpenOCD-20211118-0.11.0\stlink_f4.cfg" reset-type="RUN" download-type="UPDATED_ONLY">
+        <debugger toolchainName="MinGW-STM32" />
       </openocd>
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
@@ -95,7 +164,6 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.HEllOWORLD.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD HEllOWORLD" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD HELLOWORLD" />
     </list>
   </component>
@@ -154,6 +222,12 @@
       <workItem from="1683120573319" duration="8204000" />
       <workItem from="1683167191326" duration="23503000" />
       <workItem from="1683208944739" duration="404000" />
+      <workItem from="1683210165041" duration="698000" />
+      <workItem from="1683280555643" duration="892000" />
+      <workItem from="1683896774584" duration="512000" />
+      <workItem from="1683898375238" duration="12738000" />
+      <workItem from="1683911333664" duration="12884000" />
+      <workItem from="1683952738471" duration="434000" />
     </task>
     <servers />
   </component>

@@ -129,7 +129,7 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM9_Init();
   /* USER CODE BEGIN 2 */
-    delay_init(168);
+    delay_init(144);
     RetargetInit(&huart1);
     lcd_init();
     painter.size = LCD_FONTSIZE_1608;
@@ -156,7 +156,7 @@ int main(void)
     pwm_out(&htim3, TIM_CHANNEL_1, 1050);
     dac_set(WAVEFORM_SINE, 0, 3300, CHANNEL_2);
     dac_set(WAVEFORM_TRIANGLE, 0, 3300, CHANNEL_1);
-    dac_out(1050);
+    dac_out(10000);
 
     //--------------Delay
     delay_ms(1000);
@@ -170,23 +170,33 @@ int main(void)
     lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, GREEN, LCD_MODE_BACKFILLED);
 
     u8 key_value;
+    KEY_MODE key_state = KEY_MODE_NO_CONTINUE;
 
     while (1) {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
 
-        //-----------PWM 检测
-        pwm_input(&htim9, TIM_CHANNEL_1, 1000000, .fclk = 168000000);
+        //-----------PWM
+        pwm_input(&htim9, TIM_CHANNEL_1, 1000000, .fclk = 144000000);
 
         //-----------按钮调制
-        key_value = key_scan(KEY_MODE_NO_CONTINUE);
+        key_value = key_scan(key_state);
 
         switch (key_value) {
             case KEY0_PRES : {
                 delay_ms(20);
-                if (auto_samplerate <= (409600) )
-                    auto_samplerate *= 2;
+                key_state = KEY_MODE_CONTINUE;
+                if (auto_samplerate <= (40000))
+                {
+                    auto_samplerate += 1000;
+                }
+
+                else if (auto_samplerate <= (2400000 - 10000))
+                {
+                    auto_samplerate += 10000;
+                }
+
                 adc_stop(&hadc1);
                 adc_start_auto(&hadc1, auto_samplerate);
                 delay_ms(20);
@@ -194,14 +204,25 @@ int main(void)
             case KEY1_PRES :
             {
                 delay_ms(20);
-                if (auto_samplerate >= (3200 / 2))
-                    auto_samplerate /= 2;
+                key_state = KEY_MODE_CONTINUE;
+                if (auto_samplerate >= 20000)
+                {
+                    auto_samplerate -= 10000;
+                }
+
+                else if (auto_samplerate > 1000)
+                {
+                    auto_samplerate -= 1000;
+
+                }
+
                 adc_stop(&hadc1);
                 adc_start_auto(&hadc1, auto_samplerate);
                 delay_ms(20);
             }break;
             case KEY_UP_PRES:
             {
+                key_state = KEY_MODE_NO_CONTINUE;
                 delay_ms(20);
                 if (pause)
                 {
@@ -218,7 +239,7 @@ int main(void)
                     pause = 1;
 
                     sprintf(text, "[ STOP ]   ");
-                    
+
                     lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, RED, LCD_MODE_BACKFILLED);
 
                 }
@@ -235,7 +256,6 @@ int main(void)
             adc_process();
             if (!pause)
                 adc_start_auto(&hadc1, auto_samplerate);
-
         }
 
 #endif
@@ -265,7 +285,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 4;
-  RCC_OscInitStruct.PLL.PLLN = 168;
+  RCC_OscInitStruct.PLL.PLLN = 144;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = 7;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
@@ -282,7 +302,7 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK)
   {
     Error_Handler();
   }

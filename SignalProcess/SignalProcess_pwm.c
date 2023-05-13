@@ -13,7 +13,7 @@ u32 pwm_channel = TIM_CHANNEL_1;
 
 void _pwmFreAdjust(TIM_HandleTypeDef *htim, uint64_t f_out, dsp_args in)
 {
-    uint32_t fclk = in.fclk ? in.fclk : 84000000;
+    uint32_t fclk = in.fclk ? in.fclk : 72000000;
     u16 arr, psc;
     calc_tim_arr_psc(fclk, f_out, &arr, &psc);
     htim->Instance->ARR = arr;
@@ -23,7 +23,7 @@ void _pwmFreAdjust(TIM_HandleTypeDef *htim, uint64_t f_out, dsp_args in)
 
 void _pwmFreAdjust_psc(TIM_HandleTypeDef *htim, uint64_t f_out, dsp_args in)
 {
-    uint32_t fclk = in.fclk ? in.fclk : 168000000;
+    uint32_t fclk = in.fclk ? in.fclk : 144000000;
     float _psc = (float )fclk/ (float )f_out;
     htim->Instance->PSC = (u16)_psc + 1;
     htim->Instance->ARR = 0XFFFF;

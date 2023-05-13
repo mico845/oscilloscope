@@ -34,7 +34,6 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Inc"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay"/>
@@ -43,6 +42,9 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include/dsp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/PrivateInclude"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -74,7 +76,6 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Inc"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay"/>
@@ -83,6 +84,9 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include/dsp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/PrivateInclude"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -118,6 +122,54 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/BayesFunctions/BayesFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/CommonTables/CommonTables.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/SVMFunctions/SVMFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/SupportFunctions/SupportFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/TransformFunctions/TransformFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/WindowFunctions/WindowFunctions.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/adc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
@@ -448,21 +500,6 @@
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcdlib.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Inc/arm_common_tables.h">
-			<Option target="HEllOWORLD.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Inc/arm_const_structs.h">
-			<Option target="HEllOWORLD.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
-			<Option target="HEllOWORLD.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Lib/arm_cortexM4l_math.lib">
-			<Option target="HEllOWORLD.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
-			<Option target="HEllOWORLD.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/STM32F407VETx_FLASH.ld">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
@@ -497,6 +534,12 @@
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_pwm.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_windows.c">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_windows.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SingnalProcess_adc.c">

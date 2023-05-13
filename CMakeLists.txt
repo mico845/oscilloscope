@@ -14,7 +14,7 @@ set(SIZE arm-none-eabi-size)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 # project settings
-project(HEllOWORLD C CXX ASM)
+project(HEllOWORLD CXX C ASM)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
@@ -30,7 +30,7 @@ add_compile_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
 add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
 
 # uncomment to mitigate c++17 absolute addresses warnings
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-register")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-register")
 
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
     message(STATUS "Maximum optimization for speed")
@@ -46,7 +46,7 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Middlewares/ST/ARM/DSP/Inc)
+include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F407xx)
 
@@ -56,7 +56,6 @@ include_directories(
         System/delay
         SignalProcess
         SignalProcess/fdacoefs
-        Middlewares/ST/ARM/DSP/Inc
         HardWare/lcd
         GUI
         HardWare/key
@@ -65,6 +64,11 @@ include_directories(
         #       HardWare/oled
         #       HardWare/myiic
         #       HardWare/ad9834
+
+        # DSP库
+        ARM_DSP/Include/dsp
+        ARM_DSP/Include
+        ARM_DSP/PrivateInclude
 )
 
 file(
@@ -76,12 +80,30 @@ file(
         "SignalProcess/*"
         "HardWare/lcd/*"
         "GUI/*"
-        "Middlewares/ST/ARM/DSP/*/*"
         "HardWare/key/*"
-        #  "HardWare/matrix_key/*"
+        # "HardWare/matrix_key/*"
         #  "HardWare/oled/*"
         #  "HardWare/myiic/*"
         #  "HardWare/ad9834/*"
+
+        # DSP库
+        "ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c"
+        "ARM_DSP/Source/BayesFunctions/BayesFunctions.c"
+        "ARM_DSP/Source/CommonTables/CommonTables.c"
+        "ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c"
+        "ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c"
+        "ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c"
+        "ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c"
+        "ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c"
+        "ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c"
+        "ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c"
+        "ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c"
+        "ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c"
+        "ARM_DSP/Source/SupportFunctions/SupportFunctions.c"
+        "ARM_DSP/Source/SVMFunctions/SVMFunctions.c"
+        "ARM_DSP/Source/TransformFunctions/TransformFunctions.c"
+        "ARM_DSP/Source/WindowFunctions/WindowFunctions.c"
+
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407VETx_FLASH.ld)
@@ -91,8 +113,6 @@ add_link_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
-
-target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a)
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

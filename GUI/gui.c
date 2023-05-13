@@ -101,7 +101,7 @@ void show_result(float32_t freq, float32_t THD, float32_t max, float32_t min, fl
     //---------samplerate
     lcd_fill((LCD_WIDTH - 80) - 25 - 1 , LCD_HEIGHT * 0.4f + 10+1 + 15 - 1,  (LCD_WIDTH - 80) - 25 + 8 * 11 + 1,   LCD_HEIGHT * 0.4f + 10+1 + 15 + 16 * 2 + 1, BACK_COLOR);
     lcd_show_string((LCD_WIDTH - 80) - 25, LCD_HEIGHT * 0.4f + 10+1 + 15 , "samplerate:");
-    lcd_show_num((LCD_WIDTH - 80) - 25 + 8 * 1 , LCD_HEIGHT * 0.4f + 10+1 + 15 + 16 * 1, (u32)auto_samplerate,6, .color = NUM_COLOR);
+    lcd_show_num((LCD_WIDTH - 80) - 25 + 8 * 1 , LCD_HEIGHT * 0.4f + 10+1 + 15 + 16 * 1, (u32)auto_samplerate,8, .color = NUM_COLOR);
 
 }
 

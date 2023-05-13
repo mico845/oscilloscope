@@ -1,5 +1,5 @@
-Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-Compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
 Build flags: 
 Id flags:  
 
@@ -10,8 +10,8 @@ exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2.exe: error: ld returned 1 exit status
 
 
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-Compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
 Build flags: 
 Id flags:  
 

@@ -20,5 +20,4 @@ float32_t fft_get_freq(float32_t *fft_output_maxval, u32 fftSize);
 float32_t fft_get_THD(float32_t *fft_output_maxval, u32 fftSize, u8 range);
 WAVEFORM_TYPE fft_recognize_wave(float32_t *fft_output_maxval, u32 fftSize, u8 range);
 
-
 #endif //HELLOWORLD_SIGNALPROCESS_FFT_H

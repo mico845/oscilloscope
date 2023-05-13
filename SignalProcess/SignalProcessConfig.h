@@ -14,18 +14,19 @@
 //#define ADC_DEBUG
 //#define FILTER_DEBUG
 //#define PWM_DEBUG
+//#define WINDOWS_DEBUG
 
 /**********************************/
 //DAC
 /**********************************/
 #define MAX_VOL 3300
 
-#define DAC_BUFFER_SIZE 84 // DAC输出缓冲区大小
+#define DAC_BUFFER_SIZE 144 // DAC输出缓冲区大小
 #define sample DAC_BUFFER_SIZE
 
 #define DAC_HANDLE hdac
 #define TIM_DAC htim8
-#define TIM_DAC_CLK 168000000
+#define TIM_DAC_CLK 144000000
 
 #define DMA_DAC1 hdma_dac1
 #define DMA_DAC2 hdma_dac2
@@ -34,12 +35,12 @@
 //ADC
 /**********************************/
 #define ADC_DMA_BUF_SIZE (4096 * 2)
-#define FFT_SIZE 4096
+#define FFT_SIZE (4096)
 
 #define ADC_TIM htim2
-#define ADC_TIM_CLK 84000000
+#define ADC_TIM_CLK 72000000
 
-#define PCLK2_DIV4 (84000000/4)
+#define PCLK2_DIV (72000000/2)
 #define SAMPLETIMING (3)
 #define SAMPLERATE (ADC_TIM_CLK/(ADC_TIM.Instance->PSC + 1)/(ADC_TIM.Instance->ARR + 1))
 

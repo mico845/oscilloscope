@@ -10,7 +10,7 @@
 #include "lcd.h"
 #include "gui.h"
 
-float graph_x_scale = 16.0;
+float graph_x_scale = 30.0;
 
 
 
@@ -135,7 +135,9 @@ float32_t estimation(float32_t x)
 }
 
 
-uint64_t  auto_samplerate = 409600/2;
+
+
+uint64_t  auto_samplerate = 204800;
 void adc_process(void)
 {
     /* 滤波  */
@@ -175,14 +177,17 @@ void adc_process(void)
     float32_t pp_value= get_signal_peak_to_peak(signal, FFT_SIZE);
     float32_t rms= get_signal_rms(signal, FFT_SIZE);
 
+//----------窗函数处理
+    windows(signal,FFT_SIZE);
 //----------fft处理
     cfft(signal, FFT_SIZE, 0, 1, signal);
+
 //----------signal 变为 fft结果
     float32_t freq = fft_get_freq(signal, FFT_SIZE);
-#ifdef AUTO_SAMPLERATE
-    if (adc_check( freq * 10))
-        auto_samplerate = freq * 10;
-#endif
+
+    graph_x_scale = 8 * freq/1000.0;
+
+
     float32_t THD = fft_get_THD(signal, FFT_SIZE, 5);
 
     WAVEFORM_TYPE wave = fft_recognize_wave(signal, FFT_SIZE, 5);
@@ -190,5 +195,5 @@ void adc_process(void)
     show_result(freq, THD, max, min, pp_value, rms, wave);
 
 #endif
-    //show_result(1000,  0.01, 3299, 0, 3299, 2000);
+    //show_result(1000,  0.01, 3299, 0, 3299, 2000, WAVEFORM_SINE);
 }

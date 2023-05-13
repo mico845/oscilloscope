@@ -142,6 +142,438 @@ HEllOWORLD.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/build
 .PHONY : HEllOWORLD.elf/fast
 
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.obj: ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj
+
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.i: ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i
+
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i
+
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.s: ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s
+
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s
+.PHONY : ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s
+
+ARM_DSP/Source/BayesFunctions/BayesFunctions.obj: ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj
+
+ARM_DSP/Source/BayesFunctions/BayesFunctions.i: ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i
+
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i
+
+ARM_DSP/Source/BayesFunctions/BayesFunctions.s: ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s
+
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s
+.PHONY : ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s
+
+ARM_DSP/Source/CommonTables/CommonTables.obj: ARM_DSP/Source/CommonTables/CommonTables.c.obj
+
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.obj
+
+# target to build an object file
+ARM_DSP/Source/CommonTables/CommonTables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.c.obj
+
+ARM_DSP/Source/CommonTables/CommonTables.i: ARM_DSP/Source/CommonTables/CommonTables.c.i
+
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.i
+
+# target to preprocess a source file
+ARM_DSP/Source/CommonTables/CommonTables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.i
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.c.i
+
+ARM_DSP/Source/CommonTables/CommonTables.s: ARM_DSP/Source/CommonTables/CommonTables.c.s
+
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/CommonTables/CommonTables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.s
+.PHONY : ARM_DSP/Source/CommonTables/CommonTables.c.s
+
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.obj: ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
+
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.i: ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i
+
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i
+
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.s: ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s
+
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s
+.PHONY : ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s
+
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.obj: ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj
+
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.i: ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i
+
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i
+
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.s: ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s
+
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s
+.PHONY : ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s
+
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.obj: ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj
+
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.i: ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i
+
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i
+
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.s: ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s
+
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s
+.PHONY : ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s
+
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.obj: ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
+
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.i: ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i
+
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i
+
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.s: ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s
+
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s
+.PHONY : ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s
+
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.obj: ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj
+
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.i: ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i
+
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i
+
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.s: ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s
+
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s
+.PHONY : ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s
+
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.obj: ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj
+
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.i: ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i
+
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i
+
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.s: ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s
+
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s
+.PHONY : ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s
+
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.obj: ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj
+
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.i: ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i
+
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i
+
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.s: ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s
+
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s
+.PHONY : ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s
+
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.obj: ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj
+
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.i: ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i
+
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i
+
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.s: ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s
+
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s
+.PHONY : ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s
+
+ARM_DSP/Source/SVMFunctions/SVMFunctions.obj: ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj
+
+ARM_DSP/Source/SVMFunctions/SVMFunctions.i: ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i
+
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i
+
+ARM_DSP/Source/SVMFunctions/SVMFunctions.s: ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s
+
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s
+.PHONY : ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s
+
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.obj: ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj
+
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.i: ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i
+
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i
+
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.s: ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s
+
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s
+.PHONY : ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s
+
+ARM_DSP/Source/SupportFunctions/SupportFunctions.obj: ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj
+
+ARM_DSP/Source/SupportFunctions/SupportFunctions.i: ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i
+
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i
+
+ARM_DSP/Source/SupportFunctions/SupportFunctions.s: ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s
+
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s
+.PHONY : ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s
+
+ARM_DSP/Source/TransformFunctions/TransformFunctions.obj: ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj
+
+ARM_DSP/Source/TransformFunctions/TransformFunctions.i: ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i
+
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i
+
+ARM_DSP/Source/TransformFunctions/TransformFunctions.s: ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s
+
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s
+.PHONY : ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s
+
+ARM_DSP/Source/WindowFunctions/WindowFunctions.obj: ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj
+
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.obj
+
+# target to build an object file
+ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj
+
+ARM_DSP/Source/WindowFunctions/WindowFunctions.i: ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i
+
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.i
+
+# target to preprocess a source file
+ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i
+
+ARM_DSP/Source/WindowFunctions/WindowFunctions.s: ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s
+
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.s
+
+# target to generate assembly for a file
+ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s
+.PHONY : ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s
+
 Core/Src/adc.obj: Core/Src/adc.c.obj
 
 .PHONY : Core/Src/adc.obj
@@ -1384,6 +1816,33 @@ SignalProcess/SignalProcess_pwm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.s
 .PHONY : SignalProcess/SignalProcess_pwm.c.s
 
+SignalProcess/SignalProcess_windows.obj: SignalProcess/SignalProcess_windows.c.obj
+
+.PHONY : SignalProcess/SignalProcess_windows.obj
+
+# target to build an object file
+SignalProcess/SignalProcess_windows.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj
+.PHONY : SignalProcess/SignalProcess_windows.c.obj
+
+SignalProcess/SignalProcess_windows.i: SignalProcess/SignalProcess_windows.c.i
+
+.PHONY : SignalProcess/SignalProcess_windows.i
+
+# target to preprocess a source file
+SignalProcess/SignalProcess_windows.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.i
+.PHONY : SignalProcess/SignalProcess_windows.c.i
+
+SignalProcess/SignalProcess_windows.s: SignalProcess/SignalProcess_windows.c.s
+
+.PHONY : SignalProcess/SignalProcess_windows.s
+
+# target to generate assembly for a file
+SignalProcess/SignalProcess_windows.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.s
+.PHONY : SignalProcess/SignalProcess_windows.c.s
+
 SignalProcess/SingnalProcess_adc.obj: SignalProcess/SingnalProcess_adc.c.obj
 
 .PHONY : SignalProcess/SingnalProcess_adc.obj
@@ -1537,6 +1996,54 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HEllOWORLD.elf
+	@echo ... ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.obj
+	@echo ... ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.i
+	@echo ... ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.s
+	@echo ... ARM_DSP/Source/BayesFunctions/BayesFunctions.obj
+	@echo ... ARM_DSP/Source/BayesFunctions/BayesFunctions.i
+	@echo ... ARM_DSP/Source/BayesFunctions/BayesFunctions.s
+	@echo ... ARM_DSP/Source/CommonTables/CommonTables.obj
+	@echo ... ARM_DSP/Source/CommonTables/CommonTables.i
+	@echo ... ARM_DSP/Source/CommonTables/CommonTables.s
+	@echo ... ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.obj
+	@echo ... ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.i
+	@echo ... ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.s
+	@echo ... ARM_DSP/Source/ControllerFunctions/ControllerFunctions.obj
+	@echo ... ARM_DSP/Source/ControllerFunctions/ControllerFunctions.i
+	@echo ... ARM_DSP/Source/ControllerFunctions/ControllerFunctions.s
+	@echo ... ARM_DSP/Source/DistanceFunctions/DistanceFunctions.obj
+	@echo ... ARM_DSP/Source/DistanceFunctions/DistanceFunctions.i
+	@echo ... ARM_DSP/Source/DistanceFunctions/DistanceFunctions.s
+	@echo ... ARM_DSP/Source/FastMathFunctions/FastMathFunctions.obj
+	@echo ... ARM_DSP/Source/FastMathFunctions/FastMathFunctions.i
+	@echo ... ARM_DSP/Source/FastMathFunctions/FastMathFunctions.s
+	@echo ... ARM_DSP/Source/FilteringFunctions/FilteringFunctions.obj
+	@echo ... ARM_DSP/Source/FilteringFunctions/FilteringFunctions.i
+	@echo ... ARM_DSP/Source/FilteringFunctions/FilteringFunctions.s
+	@echo ... ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.obj
+	@echo ... ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.i
+	@echo ... ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.s
+	@echo ... ARM_DSP/Source/MatrixFunctions/MatrixFunctions.obj
+	@echo ... ARM_DSP/Source/MatrixFunctions/MatrixFunctions.i
+	@echo ... ARM_DSP/Source/MatrixFunctions/MatrixFunctions.s
+	@echo ... ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.obj
+	@echo ... ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.i
+	@echo ... ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.s
+	@echo ... ARM_DSP/Source/SVMFunctions/SVMFunctions.obj
+	@echo ... ARM_DSP/Source/SVMFunctions/SVMFunctions.i
+	@echo ... ARM_DSP/Source/SVMFunctions/SVMFunctions.s
+	@echo ... ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.obj
+	@echo ... ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.i
+	@echo ... ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.s
+	@echo ... ARM_DSP/Source/SupportFunctions/SupportFunctions.obj
+	@echo ... ARM_DSP/Source/SupportFunctions/SupportFunctions.i
+	@echo ... ARM_DSP/Source/SupportFunctions/SupportFunctions.s
+	@echo ... ARM_DSP/Source/TransformFunctions/TransformFunctions.obj
+	@echo ... ARM_DSP/Source/TransformFunctions/TransformFunctions.i
+	@echo ... ARM_DSP/Source/TransformFunctions/TransformFunctions.s
+	@echo ... ARM_DSP/Source/WindowFunctions/WindowFunctions.obj
+	@echo ... ARM_DSP/Source/WindowFunctions/WindowFunctions.i
+	@echo ... ARM_DSP/Source/WindowFunctions/WindowFunctions.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
@@ -1675,6 +2182,9 @@ help:
 	@echo ... SignalProcess/SignalProcess_pwm.obj
 	@echo ... SignalProcess/SignalProcess_pwm.i
 	@echo ... SignalProcess/SignalProcess_pwm.s
+	@echo ... SignalProcess/SignalProcess_windows.obj
+	@echo ... SignalProcess/SignalProcess_windows.i
+	@echo ... SignalProcess/SignalProcess_windows.s
 	@echo ... SignalProcess/SingnalProcess_adc.obj
 	@echo ... SignalProcess/SingnalProcess_adc.i
 	@echo ... SignalProcess/SingnalProcess_adc.s
