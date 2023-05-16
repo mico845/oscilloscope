@@ -35,7 +35,7 @@ void Main()
 
     for (;;)
     {
-        //-----------PWM
+        //-----------PWM检测
         pwm_input(&htim9, TIM_CHANNEL_1, 1000000, .fclk = 144000000);
 
         //-----------按钮调制
