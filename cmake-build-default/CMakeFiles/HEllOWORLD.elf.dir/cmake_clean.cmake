@@ -67,6 +67,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj"
+  "CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
+  "CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
+  "CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj"
   "HEllOWORLD.elf"
   "HEllOWORLD.elf.manifest"
@@ -74,6 +77,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/HEllOWORLD.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

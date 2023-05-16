@@ -12,8 +12,6 @@
 
 float graph_x_scale = 30.0;
 
-
-
 //输入频率f_in，要求输出频率f_out，满足公式f_in/ (arr * psc) = f_out,计算arr和psc
 void calc_tim_arr_psc(uint32_t f_in, uint32_t f_out, uint16_t *arr, uint16_t *psc)
 {
@@ -185,7 +183,7 @@ void adc_process(void)
 //----------signal 变为 fft结果
     float32_t freq = fft_get_freq(signal, FFT_SIZE);
 
-    graph_x_scale = 8 * freq/1000.0;
+    graph_x_scale = 5.0 * freq/1000.0;
 
 
     float32_t THD = fft_get_THD(signal, FFT_SIZE, 5);

@@ -4,7 +4,6 @@
  *  Created on: Nov 19, 2022
  *      Author: Whisky
  */
-
 #include <Module_UART.h>
 
 u8 Rx_str[RX_STR_LEN];

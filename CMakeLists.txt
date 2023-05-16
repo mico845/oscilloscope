@@ -51,9 +51,11 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F407xx)
 
 include_directories(
+        UserApp
         System/sys
         System/usart
         System/delay
+        System/*.*
         SignalProcess
         SignalProcess/fdacoefs
         HardWare/lcd
@@ -69,6 +71,7 @@ include_directories(
         ARM_DSP/Include/dsp
         ARM_DSP/Include
         ARM_DSP/PrivateInclude
+
 )
 
 file(
@@ -76,7 +79,8 @@ file(
         "startup/*.*"
         "Drivers/*.*"
         "Core/*.*"
-        "System/*/*"
+        "UserApp/*.*"
+        "System/*.*"
         "SignalProcess/*"
         "HardWare/lcd/*"
         "GUI/*"

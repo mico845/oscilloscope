@@ -2,6 +2,7 @@
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
@@ -25,9 +26,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../UserApp"
   "../System/sys"
   "../System/usart"
   "../System/delay"
+  "../System/*.*"
   "../SignalProcess"
   "../SignalProcess/fdacoefs"
   "../HardWare/lcd"
@@ -125,9 +128,48 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../UserApp"
   "../System/sys"
   "../System/usart"
   "../System/delay"
+  "../System/*.*"
+  "../SignalProcess"
+  "../SignalProcess/fdacoefs"
+  "../HardWare/lcd"
+  "../GUI"
+  "../HardWare/key"
+  "../ARM_DSP/Include/dsp"
+  "../ARM_DSP/Include"
+  "../ARM_DSP/PrivateInclude"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/init.cpp" "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
+  "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/main.cpp" "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
+  "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/usart_receive.cpp" "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ARM_MATH_CM4"
+  "ARM_MATH_MATRIX_CHECK"
+  "ARM_MATH_ROUNDING"
+  "STM32F407xx"
+  "USE_HAL_DRIVER"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Core/Inc"
+  "../Drivers/STM32F4xx_HAL_Driver/Inc"
+  "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+  "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+  "../Drivers/CMSIS/Include"
+  "../UserApp"
+  "../System/sys"
+  "../System/usart"
+  "../System/delay"
+  "../System/*.*"
   "../SignalProcess"
   "../SignalProcess/fdacoefs"
   "../HardWare/lcd"

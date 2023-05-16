@@ -1978,6 +1978,87 @@ System/usart/retarget.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.s
 .PHONY : System/usart/retarget.c.s
 
+UserApp/init.obj: UserApp/init.cpp.obj
+
+.PHONY : UserApp/init.obj
+
+# target to build an object file
+UserApp/init.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
+.PHONY : UserApp/init.cpp.obj
+
+UserApp/init.i: UserApp/init.cpp.i
+
+.PHONY : UserApp/init.i
+
+# target to preprocess a source file
+UserApp/init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.i
+.PHONY : UserApp/init.cpp.i
+
+UserApp/init.s: UserApp/init.cpp.s
+
+.PHONY : UserApp/init.s
+
+# target to generate assembly for a file
+UserApp/init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.s
+.PHONY : UserApp/init.cpp.s
+
+UserApp/main.obj: UserApp/main.cpp.obj
+
+.PHONY : UserApp/main.obj
+
+# target to build an object file
+UserApp/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
+.PHONY : UserApp/main.cpp.obj
+
+UserApp/main.i: UserApp/main.cpp.i
+
+.PHONY : UserApp/main.i
+
+# target to preprocess a source file
+UserApp/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.i
+.PHONY : UserApp/main.cpp.i
+
+UserApp/main.s: UserApp/main.cpp.s
+
+.PHONY : UserApp/main.s
+
+# target to generate assembly for a file
+UserApp/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.s
+.PHONY : UserApp/main.cpp.s
+
+UserApp/usart_receive.obj: UserApp/usart_receive.cpp.obj
+
+.PHONY : UserApp/usart_receive.obj
+
+# target to build an object file
+UserApp/usart_receive.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj
+.PHONY : UserApp/usart_receive.cpp.obj
+
+UserApp/usart_receive.i: UserApp/usart_receive.cpp.i
+
+.PHONY : UserApp/usart_receive.i
+
+# target to preprocess a source file
+UserApp/usart_receive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.i
+.PHONY : UserApp/usart_receive.cpp.i
+
+UserApp/usart_receive.s: UserApp/usart_receive.cpp.s
+
+.PHONY : UserApp/usart_receive.s
+
+# target to generate assembly for a file
+UserApp/usart_receive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.s
+.PHONY : UserApp/usart_receive.cpp.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -2200,6 +2281,15 @@ help:
 	@echo ... System/usart/retarget.obj
 	@echo ... System/usart/retarget.i
 	@echo ... System/usart/retarget.s
+	@echo ... UserApp/init.obj
+	@echo ... UserApp/init.i
+	@echo ... UserApp/init.s
+	@echo ... UserApp/main.obj
+	@echo ... UserApp/main.i
+	@echo ... UserApp/main.s
+	@echo ... UserApp/usart_receive.obj
+	@echo ... UserApp/usart_receive.i
+	@echo ... UserApp/usart_receive.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 

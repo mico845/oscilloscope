@@ -8,7 +8,6 @@
 #include <string.h>
 
 
-
 u16 buf1[sample];
 u16 buf2[sample];
 u32 __channel ;

@@ -28,17 +28,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#ifdef UART_RECEIVE
-#include "Module_UART.h"
-#endif
 
-#include "retarget.h"
-#include "delay.h"
-#include "my_dsp.h"
-#include "lcd.h"
-#include "demos.h"
-#include "key.h"
-#include "gui.h"
+#include "common_inc.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,28 +57,11 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-#ifdef UART_RECEIVE
-uint8_t data_length;
-void USER_UART_RxCpltCallback(void)
-{
-    data_length  = RX_STR_LEN - __HAL_DMA_GET_COUNTER(&DMA_RX_HANDLE);//计算收到字符长度
-    UNUSED(data_length);
-    HAL_UART_Transmit(&huart3, (uint8_t *)Rx_str, strlen((char *)Rx_str), 0xffff);
-    HAL_UART_Transmit(&huart3, (uint8_t *)'\n', 1, 0xffff);
-    u32 freq = atoi((char *)Rx_str);
-    dac_out(freq);
-    memset(Rx_str, 0, data_length);//初始化Rx_str
-    data_length  = 0;
-}
-#endif
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-//#define SAMPLERATE (204800)
-
-u8 pause = 0;
 
 /* USER CODE END 0 */
 
@@ -129,136 +104,17 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM9_Init();
   /* USER CODE BEGIN 2 */
-    delay_init(144);
-    RetargetInit(&huart1);
-    lcd_init();
-    painter.size = LCD_FONTSIZE_1608;
-    lcd_clear();
-    start_demos();
-    painter.back_color= GRAY;
-    painter.color = BROWN;
-    painter.mode = LCD_MODE_NO_BACKFILLED;
-    lcd_clear();
-#ifdef UART_RECEIVE
-    //ENABLE_IDLECallback();
-    //UART_IDLE_RegisterCallback(USER_UART_RxCpltCallback);
-    //HAL_UART_Receive_DMA(&huart3, (uint8_t*)Rx_str, RX_STR_LEN);
-#endif
+    Main();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-    //------------- show
-    gui_frame(CYAN);
-    gui_clear_frame(LGRAY);
 
-    //------------- DAC
-    pwm_out(&htim3, TIM_CHANNEL_1, 1050);
-    dac_set(WAVEFORM_SINE, 0, 3300, CHANNEL_2);
-    dac_set(WAVEFORM_TRIANGLE, 0, 3300, CHANNEL_1);
-    dac_out(10000);
-
-    //--------------Delay
-    delay_ms(1000);
-
-    //-------------- ADC
-    adc_start_auto(&hadc1, auto_samplerate);
-
-    //-------------- PWM input
-
-    char text[] = "[ Running ]";
-    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, GREEN, LCD_MODE_BACKFILLED);
-
-    u8 key_value;
-    KEY_MODE key_state = KEY_MODE_NO_CONTINUE;
 
     while (1) {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
-        //-----------PWM
-        pwm_input(&htim9, TIM_CHANNEL_1, 1000000, .fclk = 144000000);
-
-        //-----------按钮调制
-        key_value = key_scan(key_state);
-
-        switch (key_value) {
-            case KEY0_PRES : {
-                delay_ms(20);
-                key_state = KEY_MODE_CONTINUE;
-                if (auto_samplerate <= (40000))
-                {
-                    auto_samplerate += 1000;
-                }
-
-                else if (auto_samplerate <= (2400000 - 10000))
-                {
-                    auto_samplerate += 10000;
-                }
-
-                adc_stop(&hadc1);
-                adc_start_auto(&hadc1, auto_samplerate);
-                delay_ms(20);
-            }break;
-            case KEY1_PRES :
-            {
-                delay_ms(20);
-                key_state = KEY_MODE_CONTINUE;
-                if (auto_samplerate >= 20000)
-                {
-                    auto_samplerate -= 10000;
-                }
-
-                else if (auto_samplerate > 1000)
-                {
-                    auto_samplerate -= 1000;
-
-                }
-
-                adc_stop(&hadc1);
-                adc_start_auto(&hadc1, auto_samplerate);
-                delay_ms(20);
-            }break;
-            case KEY_UP_PRES:
-            {
-                key_state = KEY_MODE_NO_CONTINUE;
-                delay_ms(20);
-                if (pause)
-                {
-                    pause = 0;
-
-                    sprintf(text, "[ Running ]");
-
-                    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, GREEN, LCD_MODE_BACKFILLED);
-
-                    adc_start_auto(&hadc1, auto_samplerate);
-                }
-                else
-                {
-                    pause = 1;
-
-                    sprintf(text, "[ STOP ]   ");
-
-                    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, RED, LCD_MODE_BACKFILLED);
-
-                }
-                delay_ms(20);
-            }break;
-        }
-
-
-        //-----------ADC 捕获处理
-#if 1
-        if (adc_dma_finished)
-        {
-            adc_dma_finished = false;
-            adc_process();
-            if (!pause)
-                adc_start_auto(&hadc1, auto_samplerate);
-        }
-
-#endif
     }
   /* USER CODE END 3 */
 }
